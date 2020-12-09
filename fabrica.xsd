@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xs:schema xmlns:xs=" ">
+  <xs:element name="fabrica">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="piezas">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="pieza">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="nombre" />
+                    <xs:element name="peso" />
+                    <xs:element name="stock" />
+                    <xs:element name="pieza_coche">
+                      <xs:complexType>
+                        <xs:attribute name="pieza" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="num_ref" type="xs:string" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="obrero">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" />
+              <xs:element name="apellidos" />
+              <xs:element name="direccion" />
+              <xs:element name="localidad" />
+              <xs:element name="codigo_postal" />
+              <xs:element name="fecha_inicio" />
+            </xs:sequence>
+            <xs:attribute name="dni" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="pintor">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" />
+              <xs:element name="apellidos" />
+              <xs:element name="direccion" />
+              <xs:element name="localidad" />
+              <xs:element name="codigo_postal" />
+              <xs:element name="fecha_inicio" />
+              <xs:element name="fecha_examen" />
+            </xs:sequence>
+            <xs:attribute name="dni" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

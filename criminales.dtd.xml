@@ -1,0 +1,25 @@
+<?xml version=" 1.0" encoding = "UTF-8"?>
+
+<!DOCTYPE criminales_espanioles *[
+<!ELEMENT criminales_espanioles (datos, crimenes)>
+<!ATTLIST criminales_espanioles dni CDATA #REQUIRED>
+
+<!ELEMENT datos (nombre, apellidos, dni, fecha_nac, sexo, altura, descripcion_fisica, direccion, historial_medico)>	
+		<!ELEMENT nombre (#PCDATA)>
+		<!ELEMENT apellidos (#PCDATA)>
+		<!ELEMENT dni (#PCDATA)>
+		<!ELEMENT fecha_nac (#PCDATA)>
+		<!ELEMENT sexo (#PCDATA)>
+		<!ELEMENT altura (#PCDATA)>
+		<!ELEMENT descripcion_fisica (#PCDATA)>		
+		<!ELEMENT direccion (poblacion, calle, codigo_postal)>
+				<!ELEMENT poblacion (#PCDATA)>
+				<!ELEMENT calle (#PCDATA)>
+				<!ELEMENT codigo_postal (#PCDATA)>		
+		<!ELEMENT historial_medico (#PCDATA)> 	
+<!ELEMENT crimenes (lista_delitos, juzgado,pena, cumplimiento)>
+		<!ELEMENT lista_delitos (#PCDATA)>
+		<!ELEMENT juzgado (#PCDATA)>
+		<!ELEMENT pena (#PCDATA)>
+		<!ELEMENT cumplimiento (#PCDATA)>
+]

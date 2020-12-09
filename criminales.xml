@@ -1,0 +1,48 @@
+<?xml version=" 1.0" encoding = "UTF-8"?>
+
+<criminales_espanioles dni= "estado">
+    <datos>
+            <nombre>Alejandro</nombre>
+            <apellidos>Calvo</apellidos>
+            <dni>7665564k</dni>
+            <fecha_nac>18/02/2001</fecha_nac>
+            <sexo>hombre</sexo>
+            <altura>1.75</altura>
+            <descripcion_fisica>alto</descripcion_fisica>
+            <direccion>
+                <poblacion>Granada</poblacion>
+                <calle>av.Andalucia</calle>
+                <codigo_postal>18654</codigo_postal>
+            </direccion>
+            <historial_medico></historial_medico>
+    </datos>
+    <crimenes>
+            <lista_delitos></lista_delitos>
+            <juzgado></juzgado>
+            <pena></pena>
+            <cumplimiento></cumplimiento>
+    </crimenes>
+</criminales_espanioles>
+<criminales_espanioles dni= "estado">
+    <datos>
+            <nombre>Pepe</nombre>
+            <apellidos>Ortiz</apellidos>
+            <dni>2459458x</dni>
+            <fecha_nac>11/05/1994</fecha_nac>
+            <sexo>hombre</sexo>
+            <altura>1.90</altura>
+            <descripcion_fisica>alto</descripcion_fisica>
+			<direccion>
+			        <poblacion>Madris</poblacion>
+			        <calle>pilarejo</calle>
+			        <codigo_postal>18421</codigo_postal>
+			</direccion>
+            <historial_medico></historial_medico>
+    </datos>
+    <crimenes>
+         	<lista_delitos></lista_delitos>
+            <juzgado></juzgado>
+            <pena></pena>
+            <cumplimiento></cumplimiento>
+    </crimenes>
+</criminales_espanioles>
